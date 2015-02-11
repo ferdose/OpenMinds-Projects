@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>GOLDIE</title>
+        <meta name="description" content="A privileged app stub">
+
+       
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="css/app.css">
+
+         <script type="text/javascript" src="js/jquery.js" defer></script>
+        <script type="text/javascript" src="js/d3.js" defer></script>
+        <script type="text/javascript" src="js/app.js" defer></script>
+
+       
+    </head>
+    <body style="background:yellow">
+        <div id="gold_price_label">
+            <p>Live Price of Metals</p>
+        </div>
+        <div id="select_metal">
+            <select id="selection_metal">
+                <option value="gold">Gold</option>
+                <option value="silver">Silver</option>
+                <option value="copper">Copper</option>
+            </select>
+            <input type="button" id="get_live_price" value="Get Live Price"/>
+        </div>
+        <div id="metal_price"></div>
+        <div id="chart_button">
+           <input type="button" id="show_chart" value="Get Chart"/>
+        </div>
+        <div id="graph" class="aGraph" style="position:absolute;left:0; float:left;"></div>
+    </body>
+</html>
